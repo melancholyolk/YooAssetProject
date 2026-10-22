@@ -1,0 +1,26 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:GroupBox style="flex-direction: column; justify-content: flex-start; align-items: flex-start; background-color: rgb(46, 46, 46); margin-bottom: 3px; margin-top: 3px; padding-right: 3px; padding-left: 3px; border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; padding-top: 3px; padding-bottom: 3px;">
+        <ui:GroupBox style="flex-direction: row; align-items: flex-start; width: 100%; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 1px; padding-right: 1px; padding-bottom: 1px; padding-left: 1px;">
+            <ui:VisualElement style="justify-content: flex-start; margin-top: 6px; margin-right: 3px; margin-bottom: 1px; margin-left: 3px;">
+                <ui:TextField picking-mode="Ignore" label="CollectorRegular" name="collectFolder" style="flex-direction: column; max-width: 170px; min-width: 80px;" />
+                <ui:DropdownField label="Type" index="-1" choices="System.Collections.Generic.List`1[System.String]" name="type" focusable="true" style="align-items: stretch; justify-content: flex-start; opacity: 1; width: 165px; height: 39px; -unity-text-align: upper-left; white-space: normal; flex-direction: column;" />
+                <ui:Toggle label="Extractor" value="true" name="enableExtractor" style="width: 170px; max-width: none; align-items: auto; white-space: normal; -unity-text-align: upper-left; height: 22px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 3px; padding-left: 0; justify-content: space-between; padding-top: 0; padding-right: 0; padding-bottom: 0; flex-direction: row-reverse;" />
+            </ui:VisualElement>
+            <ui:GroupBox style="flex-grow: 1; max-width: 300px; align-items: stretch; flex-direction: column; flex-shrink: 1; flex-basis: 100%; background-color: rgb(72, 72, 72); border-top-left-radius: 6px; border-top-right-radius: 6px; border-bottom-right-radius: 6px; border-bottom-left-radius: 6px;">
+                <ui:DropdownField label="Collect Type" index="-1" choices="System.Collections.Generic.List`1[System.String]" name="collectType" />
+                <ui:DropdownField label="Address Rule Name" index="-1" choices="System.Collections.Generic.List`1[System.String]" name="addressRuleName" />
+                <ui:TextField picking-mode="Ignore" label="AddressRegular" value="filler text" text="filler text" name="addressRegular" />
+                <ui:DropdownField label="Pack Rule Name" index="-1" choices="System.Collections.Generic.List`1[System.String]" name="packRuleName" />
+                <ui:TextField picking-mode="Ignore" label="PackRegular" value="filler text" text="filler text" name="packRegular" />
+                <ui:DropdownField label="Filter Rule Name" index="-1" choices="System.Collections.Generic.List`1[System.String]" name="filterRuleName" />
+                <ui:TextField picking-mode="Ignore" label="CollectRegular" value="filler text" text="filler text" name="collectRegular" />
+                <ui:TextField picking-mode="Ignore" label="Asset Tags" name="assetTags" />
+            </ui:GroupBox>
+            <ui:GroupBox name="extractorGroup" style="width: auto; margin-top: 6px; margin-right: 3px; margin-bottom: 1px; margin-left: 3px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; flex-direction: row; display: flex; height: auto;">
+                <ui:GroupBox style="max-width: 300px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 4px; padding-right: 4px; padding-bottom: 4px; padding-left: 4px; width: 300px; background-color: rgb(68, 68, 68); border-top-left-radius: 6px; border-top-right-radius: 6px; border-bottom-right-radius: 6px; border-bottom-left-radius: 6px;">
+                    <ui:ListView focusable="true" show-add-remove-footer="true" name="extractorList" virtualization-method="DynamicHeight" reorder-mode="Simple" show-alternating-row-backgrounds="ContentOnly" show-border="true" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; min-height: 10px; max-height: 4000px;" />
+                </ui:GroupBox>
+            </ui:GroupBox>
+        </ui:GroupBox>
+    </ui:GroupBox>
+</ui:UXML>

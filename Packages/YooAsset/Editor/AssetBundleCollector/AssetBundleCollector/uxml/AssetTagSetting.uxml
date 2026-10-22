@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="tags-container" style="flex-grow: 1; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px;">
+        <ui:Label text="Tags Editor" display-tooltip-when-elided="true" style="font-size: 18px; -unity-font-style: bold; margin-bottom: 10px; color: rgb(255, 255, 255);" />
+        <ui:VisualElement name="add-tag-container" style="flex-direction: row; margin-bottom: 15px; align-items: center; width: 382px; height: 20px;">
+            <ui:TextField placeholder-text="Enter new tag..." name="TagField" style="flex-grow: 1; margin-right: 5px;" />
+            <ui:Button text="Add Tag" display-tooltip-when-elided="true" name="AddButton" style="background-color: rgb(56, 147, 58); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; border-top-left-radius: 3px; border-bottom-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; color: rgb(255, 255, 255); padding-left: 15px; padding-right: 15px;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="height: 1px; background-color: rgb(128, 128, 128); margin-bottom: 15px;" />
+        <ui:Label text="Current Tags" display-tooltip-when-elided="true" style="font-size: 14px; -unity-font-style: bold; margin-bottom: 10px;" />
+        <ui:ScrollView name="tags-list" style="flex-grow: 1; max-height: 300px;">
+            <ui:VisualElement name="TagsContent" style="flex-grow: 1;" />
+        </ui:ScrollView>
+        <ui:VisualElement name="bottom-actions" style="flex-direction: row; margin-top: 15px; justify-content: space-between; transform-origin: bottom;">
+            <ui:Button text="Clear All" display-tooltip-when-elided="true" name="ClearButton" style="background-color: rgb(204, 85, 85); color: rgb(255, 255, 255); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; border-top-left-radius: 3px; border-bottom-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; padding-left: 15px; padding-right: 15px;" />
+            <ui:Label name="CountLable" text="Tags: 0" style="align-self: center; font-size: 12px; color: rgb(180, 180, 180);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

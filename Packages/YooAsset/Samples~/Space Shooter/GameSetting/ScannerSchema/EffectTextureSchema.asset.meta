@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/ThirdParties/YooAsset/Samples~/Space Shooter/GameSetting/ScannerSchema/EffectTextureSchema.asset.meta
+guid: 5c2e5b350351d674891ef1a046654bcf
+========
+guid: f664f48b4927e5b4781692ba599dd2c0
+>>>>>>>> origin/master:Assets/Arts/UI/Effect/Material/CardDraw/mat_text_uv_2.mat.meta
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

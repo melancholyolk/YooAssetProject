@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 185f6993d5150494d98da50e26cb1c25, type: 3}
+  m_Name: AssetBundleCollectorSetting
+  m_EditorClassIdentifier: 
+  ShowPackageView: 1
+  ShowEditorAlias: 0
+  UniqueBundleName: 0
+  Packages:
+  - PackageName: DefaultPackage
+    PackageDesc: 
+    EnableAddressable: 1
+    LocationToLower: 0
+    IncludeAssetGUID: 1
+    AutoCollectShaders: 1
+    IgnoreRuleName: NormalIgnoreRule
+    Groups:
+    - GroupName: Scene
+      GroupDesc: 
+      AssetTags: 
+      ActiveRuleName: EnableGroup
+      Collectors:
+      - CollectPath: Assets/Arts/FBX/Role_00_01_Skin.FBX
+        CollectorGUID: fe805339d9bf439408ae531f555478e0
+        CollectorType: 0
+        AddressRuleName: AddressByPath
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        AddressRegular: 
+        PackRegular: 
+        CollectRegular: 
+      AssetCollectorType:
+        typeInfos: []
+      AssetBundleCollectorRule:
+        path: 
+        collectorRules: []
+    - GroupName: UI
+      GroupDesc: 
+      AssetTags: 
+      ActiveRuleName: DisableGroup
+      Collectors:
+      - CollectPath: Assets/Arts/UI/Achievement/NoAtlasWithAddress
+        CollectorGUID: b974c2d7a12ead54d93fbec9b2458b9e
+        CollectorType: 0
+        AddressRuleName: AddressByPath
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        AddressRegular: 
+        PackRegular: 
+        CollectRegular: 
+      - CollectPath: Assets/Arts/UI/Achievement/TestUI.prefab
+        CollectorGUID: 872aee5693b27414d8005669242065ea
+        CollectorType: 0
+        AddressRuleName: AddressByPath
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        AddressRegular: 
+        PackRegular: 
+        CollectRegular: 
+      - CollectPath: Assets/Arts/UI/Achievement/Atlas
+        CollectorGUID: f824c40a97ad7b14da9db58d65953ba1
+        CollectorType: 0
+        AddressRuleName: AddressByPath
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        AddressRegular: 
+        PackRegular: 
+        CollectRegular: 
+      AssetCollectorType:
+        typeInfos: []
+      AssetBundleCollectorRule:
+        path: 
+        collectorRules: []
+    - GroupName: Prefab
+      GroupDesc: 
+      AssetTags: 
+      ActiveRuleName: DisableGroup
+      Collectors:
+      - CollectPath: Assets/Arts/FBX/_C
+        CollectorGUID: bf7f8548a56f537439d246c348559495
+        CollectorType: 0
+        AddressRuleName: AddressByPath
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        AddressRegular: 
+        PackRegular: 
+        CollectRegular: 
+      AssetCollectorType:
+        typeInfos: []
+      AssetBundleCollectorRule:
+        path: 
+        collectorRules: []
+    Tags: []

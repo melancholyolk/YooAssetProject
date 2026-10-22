@@ -1,0 +1,19 @@
+{
+  "name": "org.crestruction.aaubry.yaml",
+  "version": "16.0.0",
+  "displayName": "YAML.Net",
+  "description": "YAML.Net",
+  "unity": "2019.1",
+  "unityRelease": "0b5",
+  "documentationUrl": "https://github.com/aaubry/YamlDotNet/wiki",
+  "changelogUrl": "https://github.com/aaubry/YamlDotNet/releases",
+  "licensesUrl": "https://opensource.org/license/mit",
+  "keywords": [
+    "YAML"
+  ],
+  "author": {
+    "name": "Antoine Aubry",
+    "email": "aaubry@ciberlandia.pt",
+    "url": "https://github.com/aaubry"
+  }
+}

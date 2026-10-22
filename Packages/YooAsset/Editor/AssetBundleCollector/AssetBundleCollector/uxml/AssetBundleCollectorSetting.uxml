@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:GroupBox style="height: 30px; overflow: visible; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; flex-direction: row; align-items: flex-end; justify-content: space-between;">
+        <ui:Label text="Auto Package Group Collector" display-tooltip-when-elided="true" style="-unity-font: url(&quot;project://database/Library/unity%20default%20resources?fileID=10102&amp;guid=0000000000000000e000000000000000&amp;type=0#Arial&quot;); font-size: 18px; -unity-font-style: bold;" />
+    </ui:GroupBox>
+    <ui:GroupBox>
+        <uie:ObjectField label="Group Search Path" name="Path" />
+        <ui:Button text="Refresh" display-tooltip-when-elided="true" name="refresh" />
+    </ui:GroupBox>
+    <ui:GroupBox style="flex-grow: 0; flex-shrink: 1;">
+        <ui:Label text="Collect Rules" display-tooltip-when-elided="true" style="font-size: 14px; height: 20px;" />
+        <ui:ListView focusable="true" virtualization-method="DynamicHeight" show-border="true" show-alternating-row-backgrounds="ContentOnly" name="groupList" show-add-remove-footer="true" show-foldout-header="false" selection-type="Single" horizontal-scrolling="false" reorder-mode="Simple" style="height: 100%; -unity-font: url(&quot;project://database/Library/unity%20default%20resources?fileID=10102&amp;guid=0000000000000000e000000000000000&amp;type=0#Arial&quot;); flex-grow: 0; min-height: 40px; max-height: none;" />
+    </ui:GroupBox>
+</ui:UXML>
